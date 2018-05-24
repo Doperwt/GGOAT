@@ -11,7 +11,7 @@ class TestLifeForm {
         Assertions.assertThat(plant.energy).isEqualTo(10)
     }
     @Test
-    fun canEat(){
+    fun plantCanEat(){
         //assign
         val plant = Plant()
         //act
