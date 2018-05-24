@@ -10,7 +10,7 @@ interface LifeForm {
     fun update(){}
     //Plant/Carnivore/Herbivore class shouldn't implement update, this is up to the user/player
 
-    fun move(target : Object){}
+    fun move(){}
 
     fun eat(){}
 
