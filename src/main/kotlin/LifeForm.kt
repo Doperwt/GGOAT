@@ -4,6 +4,7 @@ interface LifeForm {
     var age : Int
     var reproductionStage : Int
     val name : String
+    val alive : Boolean
     //we should implement size/growth early as it affects all things and breaks user plants if implemented later - robert
     // var size : Int
     // val maxSize : Int // maxSize could influence when a lifeform can start to reproduce/starting size/cost to reproduce
@@ -29,7 +30,10 @@ class Plant : LifeForm {
     override var age = 0
     override var reproductionStage = 0
     override val name = "name"
+    override val alive = true
+
     //plants only eat and reproduce, they eat 'nothing' to gain energy
     //Plant/Carnivore/Herbivore class shouldn't implement update, this is up to the user/player
     //
 }
+

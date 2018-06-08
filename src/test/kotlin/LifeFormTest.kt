@@ -19,5 +19,13 @@ class TestLifeForm {
         //assert
         Assertions.assertThat(plant.energy).isNotEqualTo(10)
     }
+    @Test
+    fun plantAlive(){
+        //assign
+        val plant = Plant()
+        //act
+        //assert
+        Assertions.assertThat(plant.energy).isGreaterThan(0)
+    }
 }
 
