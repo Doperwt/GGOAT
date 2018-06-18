@@ -25,10 +25,7 @@ interface LifeForm {
         // I know, I was bad, I didn't write the test first.
     }
 
-    fun eat() : Boolean { // only for plants currently. needs a check if it's not a plant, it needs a lifeform to eat
-        energy += 5
-        return true
-    }
+    fun eat() {}
 
     fun scan(){}
 
@@ -67,6 +64,9 @@ class Plant(coordinateX : Int, coordinateY : Int) : LifeForm {
 
         return childPlant
     }
-
+    override fun eat() : Boolean { // only for plants currently. needs a check if it's not a plant, it needs a lifeform to eat
+        energy += 5
+        return true
+    }
     //plants only eat and reproduce, they eat 'nothing' to gain energy
 }
