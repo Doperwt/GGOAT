@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="434dd3f9-959a-47cc-95d6-bdc6c91be3c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LifeForm$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/LifeForm$DefaultImpls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/LifeForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/LifeForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Plant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Plant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestLifeForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestLifeForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/LifeForm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LifeForm.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt" afterDir="false" />
     </list>
@@ -33,8 +26,8 @@
       <file leaf-file-name="LifeFormTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="338">
+              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding>
                 <element signature="e#0#62#0" expanded="true" />
               </folding>
@@ -45,8 +38,8 @@
       <file leaf-file-name="LifeForm.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/LifeForm.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="646">
+              <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -54,7 +47,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="484">
               <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
@@ -411,8 +404,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/Lifeform.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/Lifeform.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/LifeForm.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/LifeForm.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt" />
       </list>
     </option>
   </component>
@@ -428,7 +421,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -440,13 +432,7 @@
             <path>
               <item name="GGOAT" type="b2602c69:ProjectViewProjectNode" />
               <item name="GGOAT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GGOAT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GGOAT" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GGOAT" type="b2602c69:ProjectViewProjectNode" />
@@ -483,6 +469,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -674,18 +661,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLifeForm - 2018.06.17 at 12h 37m 27s.xml">
-      <configuration name="TestLifeForm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLifeForm - 2018.06.17 at 12h 37m 46s.xml">
-      <configuration name="TestLifeForm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLifeForm - 2018.06.17 at 12h 39m 33s.xml">
-      <configuration name="TestLifeForm" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestLifeForm_plantCanReproduce - 2018.06.17 at 12h 49m 01s.xml">
-      <configuration name="TestLifeForm.plantCanReproduce" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestLifeForm_plantCanReproduce - 2018.06.17 at 12h 54m 46s.xml">
       <configuration name="TestLifeForm.plantCanReproduce" configurationId="JUnit" />
     </history-entry>
@@ -704,39 +679,71 @@
     <history-entry file="TestLifeForm - 2018.06.17 at 13h 00m 39s.xml">
       <configuration name="TestLifeForm" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestLifeForm - 2018.06.18 at 11h 02m 04s.xml">
+      <configuration name="TestLifeForm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLifeForm - 2018.06.18 at 11h 04m 54s.xml">
+      <configuration name="TestLifeForm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLifeForm - 2018.06.18 at 11h 06m 22s.xml">
+      <configuration name="TestLifeForm" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLifeForm - 2018.06.18 at 11h 06m 56s.xml">
+      <configuration name="TestLifeForm" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-4" width="1872" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960325" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49973047" weight="0.32889345" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50026953" side_tool="true" visible="true" weight="0.32991803" />
       <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49973047" visible="true" weight="0.32991803" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960325" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946581" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32960325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15471698" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960325" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32960325" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946581" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -748,6 +755,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LifeForm.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/Lifeform.kt" />
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/LifeForm.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -773,20 +829,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/Lifeform.kt" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="484">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="338">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
@@ -795,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/LifeForm.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="646">
+          <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
     </entry>

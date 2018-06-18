@@ -5,7 +5,7 @@ class TestLifeForm {
     @Test
     fun hasEnergyCount(){
         //assign
-        val plant = Plant()
+        val plant = Plant(0,0)
         //act
         //assert
         Assertions.assertThat(plant.energy).isEqualTo(10)
@@ -13,7 +13,7 @@ class TestLifeForm {
     @Test
     fun plantCanEat(){
         //assign
-        val plant = Plant()
+        val plant = Plant(0,0)
         //act
         plant.eat()
         //assert
@@ -22,7 +22,7 @@ class TestLifeForm {
     @Test
     fun plantCannotMove() {
         //assign
-        val plant = Plant()
+        val plant = Plant(0,0)
 
         //act
         val moved = plant.move(1, 0)
@@ -35,20 +35,21 @@ class TestLifeForm {
     @Test
     fun plantCanDoNothing(){
         //assign
-        val plant = Plant()
+        val plant = Plant(0,0)
 
         //act
-        plant.doNothing()
+        plant.age()
         //assert
         Assertions.assertThat(plant.coordinateX).isEqualTo(0)
         Assertions.assertThat(plant.coordinateY).isEqualTo(0)
         Assertions.assertThat(plant.energy).isEqualTo(9)
+        Assertions.assertThat(plant.age).isEqualTo(1)
     }
 
     @Test
     fun plantCanReproduce(){
         //assign
-        val plant = Plant()
+        val plant = Plant(0,0)
 
         //act
         val plantChild = plant.reproduce()
@@ -58,4 +59,16 @@ class TestLifeForm {
 
     }
 
+    @Test
+    fun plantCanDie(){
+        //assign
+        val plant = Plant(0,0)
+
+        //act
+        plant.die()
+        //assert
+
+        Assertions.assertThat(plant.energy).isEqualTo(0)
+
+    }
 }

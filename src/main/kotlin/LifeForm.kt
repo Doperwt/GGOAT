@@ -36,20 +36,26 @@ interface LifeForm {
 
     // fun grow(energy : Int){} //growth speed could depend on energy investment
 
-    fun doNothing() : Boolean {
+    fun age() : Boolean {
         energy -= 1
+        age += 1
         return true
     }  //wait is reserved, should carry minimal energy cost(think alligators waiting for days for prey/spiders laying traps)
+
+    fun die() : Boolean {
+        energy = 0
+        return true
+    }
 }
 
-class Plant : LifeForm {
+class Plant(coordinateX : Int, coordinateY : Int) : LifeForm {
     override var energy = 10
     override val maxEnergy = 100
     override var age = 0
     override var reproductionStage = 0
     override val name = "name"
-    override var coordinateX = 0
-    override var coordinateY = 0
+    override var coordinateX = coordinateX
+    override var coordinateY = coordinateY
 
     //
     //Plant/Carnivore/Herbivore class shouldn't implement update, this is up to the user/player
@@ -57,7 +63,7 @@ class Plant : LifeForm {
 
     override fun reproduce() : Plant {
         energy -= 7
-        val childPlant = Plant()
+        val childPlant = Plant(1,1)
 
         return childPlant
     }
