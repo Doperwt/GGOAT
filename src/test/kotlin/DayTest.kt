@@ -6,21 +6,21 @@ class TestDay {
     fun worksWithOneDay(){
         //assign
         val day = Day()
-//        val passed = 0
+        val daysPassed = 0
         //act
         //assert
-        Assertions.assertThat(day.nextDay(5)).isEqualTo(5)
+        Assertions.assertThat(day.nextDay(daysPassed)).isEqualTo(1)
     }
-//    @Test
-//    fun worksWithTwoDays(){
-//        //assign
-//        val day = Day()
-//        val passedDays = 0
-//        //act
-//        day.nextDay(passedDays)
-//        day.nextDay(passedDays)
-//        //assert
-//        Assertions.assertThat(passedDays).isEqualTo(2)
-//    }
+    @Test
+    fun worksWithTwoDays(){
+        //assign
+        val day = Day()
+        var passedDaysNr = 0
+        //act
+        passedDaysNr = day.nextDay(passedDaysNr)
+        passedDaysNr = day.nextDay(passedDaysNr)
+        //assert
+        Assertions.assertThat(passedDaysNr).isEqualTo(2)
+    }
 }
 
