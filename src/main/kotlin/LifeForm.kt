@@ -62,7 +62,7 @@ class Plant(coordinateX : Int, coordinateY : Int) : LifeForm {
 
 
     override fun reproduce() : Plant {
-        energy -= 7
+        energy -= 30
         val childPlant = Plant(1,1)
 
         return childPlant

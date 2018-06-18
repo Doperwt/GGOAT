@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="434dd3f9-959a-47cc-95d6-bdc6c91be3c5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/LifeForm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/LifeForm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,7 +36,7 @@
       <file leaf-file-name="LifeForm.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/LifeForm.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="448">
               <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
@@ -404,8 +402,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/Lifeform.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/Lifeform.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/LifeForm.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/LifeForm.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/LifeFormTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/LifeForm.kt" />
       </list>
     </option>
   </component>
@@ -848,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/LifeForm.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="448">
           <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
