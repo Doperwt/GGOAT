@@ -38,7 +38,7 @@ class TestLifeForm {
         val plant = Plant(0,0)
 
         //act
-        plant.age()
+        plant.turn()
         //assert
         Assertions.assertThat(plant.coordinateX).isEqualTo(0)
         Assertions.assertThat(plant.coordinateY).isEqualTo(0)
@@ -54,9 +54,7 @@ class TestLifeForm {
         //act
         val plantChild = plant.reproduce()
         //assert
-
-        Assertions.assertThat(plantChild).isInstanceOf(Plant::class.java)
-
+        Assertions.assertThat(plantChild).isInstanceOf(plant::class.java)
     }
 
     @Test
@@ -67,8 +65,17 @@ class TestLifeForm {
         //act
         plant.die()
         //assert
-
         Assertions.assertThat(plant.energy).isEqualTo(0)
-
     }
+
+    @Test
+    fun randomFunctionIsRandom(){
+        //assign
+        val plant = Plant(0,0)
+        //act
+        //assert
+        Assertions.assertThat(plant.randomLocation()).isGreaterThan(-3)
+        Assertions.assertThat(plant.randomLocation()).isLessThan(3)
+    }
+
 }
